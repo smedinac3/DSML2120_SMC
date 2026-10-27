@@ -4,20 +4,20 @@ from pathlib import Path
 st.title("👋 My Bio")
 
 # ---------- TODO: Replace with your own info ----------
-NAME = "Your Name"
-PROGRAM = "Your Program / Major / Role"
+NAME = "Sergio Medina Chavira"
+PROGRAM = "Computer Science"
 INTRO = (
-    "Write 2–3 sentences about yourself: what you’re studying/working on, "
+    "Currently majoring in Computer Science and wanting to double major in machine learning, "
     "what excites you about data visualization or computing, etc."
 )
 FUN_FACTS = [
-    "I love …",
-    "I’m learning …",
+    "I am vegan.",
+    "I’m learning to develope games using Godot.",
     "I want to build …",
 ]
 
 
-PHOTO_PATH = "your_photo.jpg"  # Put a file in repo root or set a URL
+PHOTO_PATH = "Logo.png"  # Put a file in repo root or set a URL
 
 
 def find_photo(filename=PHOTO_PATH):
